@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.footer.menu h4{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 40px;
+    letter-spacing: 1px;
+}
+.container-seven{
+    background-color: rgb(14, 16, 76);
+    padding: 40px;
+    color: #fff;
+}
+.container-seven h5{
+    font-size: 25px;
+}
+
+.container-seven p{
+    color:rgb(119, 118, 118);
+}
+
+.container-seven ul li a{
+    text-decoration: none;
+    color: rgb(119, 118, 118);
+    font-size: 17px;
+}
+.container-seven p{
+   margin-right: -30px;
+}
+
+

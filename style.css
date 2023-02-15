@@ -1,0 +1,413 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.container-one {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/project1/bgimage2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin: 30px 40px;
+    cursor: pointer;
+}
+
+.navbar {
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 450px;
+}
+
+.navbar ul li {
+    display: inline;
+    max-width: 100%;
+    margin: 30px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: orange;
+    font-size: 18px;
+    font-family: sans-serif;
+    transition: 0.3s;
+    font-weight: 400;
+}
+
+.navbar ul li a:hover {
+    color: white;
+}
+
+.btn {
+    display: inline;
+    float: right;
+    margin: 50px 20px;
+    border: none;
+    outline: none;
+}
+
+.btn button {
+    background-color: orange;
+    color: white;
+    padding: 0px 10px;
+    border-radius: 10px;
+    font-family:  sans-serif;
+    font-weight: 400;
+    transition: 0.5s;
+    border: none;
+    outline: none;
+}
+
+.btn button:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.btn input {
+    background-color: transparent;
+    color: black;
+    padding-left: 15px;
+    border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.heading h2 {
+    font-size: 70px;
+    color: orange;
+}
+
+.heading p {
+    color: whitesmoke;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* .container-one ends here */
+
+.container-two h2 {
+    letter-spacing: 5px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.menucards {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-left: 500px;
+    margin-top: 90px;
+}
+
+.menucards img {
+    width: 200px;
+    height: 170px;
+}
+
+.card-group {
+    margin-top: 100px;
+}
+
+.card-img-top {
+    width: 300px;
+    height: 250px;
+}
+
+.container h2 {
+    margin-top: 30px;
+}
+
+.card-group {
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.card {
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.container-two button {
+    background-color: orange;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 20px;
+    width: 20%;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 606px;
+    transition: 0.2s;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.container-two button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* .container-two ends here */
+
+.col-sm-6 .left-image img {
+    margin-left: 10px;
+    margin-top: 60px;
+    width: 100.5%;
+    height: 100%;
+    position: relative;
+}
+
+.col-sm-6 .right-body {
+    margin-top: 150px;
+    padding: 10px;
+    text-align: center;
+}
+
+.col-sm-6 .right-body h3 {
+    font-size: 60px;
+}
+
+.col-sm-6 .right-body p {
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.col-sm-6 .right-body button {
+    background-color: orange;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 20px;
+    width: 40%;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 30px;
+    transition: 0.2s;
+    font-weight: 600;
+}
+
+.col-sm-6 .right-body button:hover {
+    background-color: black;
+    color: white;
+}
+
+.col-sm-6 .left-body {
+    text-align: center;
+    margin-top: 110px;
+    padding: 10px;
+}
+
+.col-sm-6 .left-body h3 {
+    font-size: 60px;
+}
+
+.col-sm-6 .left-body p {
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.col-sm-6 .left-body button {
+    background-color: orange;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 20px;
+    width: 40%;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.col-sm-6 .left-body button:hover {
+    background-color: black;
+    color: white;
+}
+
+.col-sm-6 .right-image img {
+    margin-right: 10px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+/* container-three ends here  */
+
+
+.container-four h2 {
+    text-align: center;
+    font-family: 'Gill Sans MT';
+    letter-spacing: 5px;
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.card-number-one img {
+    margin: 20px 40px;
+    width: 100px;
+    height: 100px;
+    margin-left: 270px;
+}
+
+.container-four {
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.order h5 {
+    display: inline;
+    margin: 0px 33px;
+    margin-left: 235px;
+    font-size: 30px;
+}
+.order-card1{
+    margin-left: 0px 150px;
+}
+
+.container-fourth .col-sm-6 img{
+    padding: 50px;
+    width: 50%;
+ height: 130%;
+ margin-left: 250px;
+ margin-top: 20px;
+}
+.container-fourth .col-sm-6 h1{
+font-size: 70px;
+margin-top: 170px;
+margin-left: 170px;
+color:orange;
+transition: 0.5;
+}
+.container-fourth .col-sm-6 h1:hover{
+    color: black;
+}
+
+/* container-four ends here */
+
+
+.container-five {
+    background-image: url('/project1/veggies.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.container-five h2 {
+    font-size: 80px;
+    font-style: italic;
+    text-align: center;
+    padding: 70px;
+    margin-left: 500px;
+}
+
+.container-five p {
+    font-size: 20px;
+    width: 60%;
+    text-align: center;
+    font-family: serif;
+    margin-left: 570px;
+}
+
+.container-five button {
+    background-color: orange;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 20px;
+    width: 20%;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: 600;
+    transition: 0.2s;
+    margin-left: 860px;
+    margin-bottom: 60px;
+}
+
+.container-five button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* container-five ends heree */
+
+.lorem {
+    font-size: 20px;
+    width: 71%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.container-six svg{
+    color: #fff;
+    height: 150px;
+    width: 150px;
+    margin-left: 45%;
+    margin-top: 150px;
+    transition: 0.3 ease-in-out;
+}
+.container-six svg:hover{
+    color: orange;
+}
+
+.container-six h4{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 40px;
+    letter-spacing: 1px;
+}
+
+.three-logos{
+    margin-left: 43%;
+    padding: 15px;
+}
+.three-logos img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+/* container-six ends here */
+
+.container-seven{
+    background-color: rgb(14, 16, 76);
+    padding: 40px;
+    color: #fff;
+}
+.container-seven h5{
+    font-size: 25px;
+}
+
+.container-seven p{
+    color:rgb(119, 118, 118);
+}
+
+.container-seven ul li a{
+    text-decoration: none;
+    color: rgb(119, 118, 118);
+    font-size: 17px;
+}
+.container-seven p{
+   margin-right: -30px;
+}
+
